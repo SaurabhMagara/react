@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Ubuntu:wght@300&display=swap');
+
+.btn-box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.num-btn, .op-btn{
+    font-size: 1.5rem;
+    padding: 5px 25px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    transition: all .4s ease; 
+    border-radius: 10px ;
+  
+}
+
+.num-btn{
+    color: black;
+    background-color:snow;
+    box-shadow: 3px 3px 0 rgb(55, 46, 46);
+}
+
+.num-btn:hover{
+    color: black;
+    background-color: white;
+    transform: scale(.9);
+    box-shadow: 2px 2px 0 rgb(55, 46, 46);
+    cursor: pointer;
+}
+
+.main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.inner-div{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: gray;
+    box-shadow:  0 0 7px 3px rgb(50, 43, 43);
+}
+
+.btn-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inp{
+    font-size: 1.5rem;
+    margin: 10px ;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    padding: 5px 6px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+    box-shadow: 3px 3px 0 rgb(55, 46, 46);
+}
+
+.row-s{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.clr-btn{
+    font-size: 1.2rem;
+    padding: 5px 59px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    transition: all .4s ease;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0 rgb(55, 46, 46);
+}
+
+.del:hover, .ac-btn:hover{
+   background-color: rgb(242, 37, 37);
+    transform: scale(.9);
+    box-shadow: 2px 2px 0 rgb(55, 46, 46);
+    cursor: pointer;
+}
+
+.eq-btn{
+    color: white;
+    background-color: rgb(0, 255, 0);
+    box-shadow: 3px 3px 0 rgb(55, 46, 46);
+}
+
+.eq-btn:hover{
+    color: white;
+    background-color: rgb(0, 255, 0);
+    transform: scale(.9);
+    box-shadow: 2px 2px 0 rgb(55, 46, 46);
+    cursor: pointer;
+
+}
+
+.op-btn{
+    color: white;
+    background-color:orange;
+    box-shadow: 3px 3px 0 rgb(55, 46, 46);
+}
+.op-btn:hover{
+    transform: scale(.9);
+    box-shadow: 2px 2px 0 rgb(55, 46, 46);
+    cursor: pointer;
+}
+
