@@ -10,9 +10,6 @@ const Nav = ()=>{
         <Link className="style" to='/'>
             Notes
         </Link>
-        <Link className="style" to='/Ctime'>
-            Current Time
-        </Link>
         <Link className="style" to='/AgeCalc'>
             Age Calculator
         </Link>
@@ -22,15 +19,13 @@ const Nav = ()=>{
         <Link className="style" to='/To'>
             ToDo List
         </Link>
-        <Link className="style" to='/Qputes'>
+        <Link className="style" to='/Qoutes'>
             GOT Qoutes
         </Link>
         <Link className="style" to='/Calculator'>
             Calculator
         </Link>
-        <Link className="style" to='/Meter'>
-            Meter
-        </Link>
+       
         </div>
        
 

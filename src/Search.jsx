@@ -8,12 +8,15 @@ const Search = ()=>{
     }
 
     console.log(img);
-    const source = `https://source.unsplash.com/500x600/?${img}`;
+    const source = `https://source.unsplash.com/400x450/?${img}`;
 
     return (
         <>
-        <input type="text" onChange={search} value={img} />
+        <div className="d-flex justify-content-center align-items-center flex-column">
+            <h1>Dynamic Photo fetcher</h1>
+        <input type="text" onChange={search} value={img}  className="center rounded-2 fs-2 shadow m-3" placeholder="Enter name"/>
         {img !== "" && <img src={source} alt="Photo"/>}
+        </div>
         
         </>
     )

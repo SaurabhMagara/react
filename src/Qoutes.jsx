@@ -3,9 +3,9 @@ import React, { useEffect, useState } from "react";
 const Qoutes = () => {
 
     const [req, setReq] = useState({
-        name: "",
-        house: "",
-        qoute: ""
+        name: "Jon Snow",
+        house: "House Stark of Winterfell",
+        qoute: "The war is not over. And I promise you, friend, the true enemy won't wait out the storm. He brings the storm."
     });
 
     const data = async () => {
