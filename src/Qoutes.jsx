@@ -9,11 +9,14 @@ const Qoutes = () => {
     });
 
     const data = async () => {
-        const w = await fetch('https://api.gameofthronesquotes.xyz/v1/random');
-        const data = await w.json();
-        console.log(data);
+        try {
+            const response = await fetch('https://api.gameofthronesquotes.xyz/v1/random');
+            const data = await response.json();
+            return data;
+        } catch (error) {
+            console.log(error);
+        }
 
-        return data;
     }
 
     const getFacts = async () => {
